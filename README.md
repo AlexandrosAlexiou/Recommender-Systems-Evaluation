@@ -29,7 +29,10 @@ calculate the set <img src="https://render.githubusercontent.com/render/math?mat
 
 We use the following formula for the prediction:
 
+<p align="center">
 <img src="https://github.com/AlexandrosAlexiou/Recommender-Systems-Evaluation/blob/main/formulae/ucf.png" alt="UCF" width="305"/>
+</p>
+
 The s(𝑢, 𝑢′) is the similarity between the users 𝑢 and 𝑢′.
 
 The r(𝑢', 𝑢′) is the rating of the user 𝑢′for the business b.
@@ -57,7 +60,9 @@ b from those rated by u.
 
 Then we use the following formula for your prediction:
 
+<p align="center">
 <img src="https://github.com/AlexandrosAlexiou/Recommender-Systems-Evaluation/blob/main/formulae/icf.png" alt="ICF" width="300"/>
+</p>
 
 In equation s(b, b') is the similarity between business b and b′. For the implementation we will use the cosine similarity.
 
@@ -81,7 +86,9 @@ for your prediction. If the value becomes less than 0, or greater than 5, we rou
 Square Error) metric. If <img src="https://render.githubusercontent.com/render/math?math=r_1, r_2, ..., r_n"> are the ratings we want to predict, and <img src="https://render.githubusercontent.com/render/math?math=p_1, p_2, ..., p_n"> are the
 predictions of the algorithm, the RMSE of the algorithm is defined as:
 
+<p align="center">
 <img src="https://github.com/AlexandrosAlexiou/Recommender-Systems-Evaluation/blob/main/formulae/rmse.png" alt="RMSE" width="190"/>
+</p>
 
 We created charts with the RMSE for different k values for all algorithms. For
 the UCF algorithm we use the values [1, 5, 10, 20, 50, 100, 200, 500, 1000]. For the ICF algorithm
@@ -98,7 +105,9 @@ We created a table that contains all the algorithm results, and the best error f
 **Bonus**: We Implemented and tested the UCF variant that predicts deviations from the mean.
 In this case, we will use the following equation for the prediction:
 
+<p align="center">
 <img src="https://github.com/AlexandrosAlexiou/Recommender-Systems-Evaluation/blob/main/formulae/ucf_pcc.png" alt="UCF PCC" width="410"/>
+</p>
 
 For the similarity we will use the correlation coefficient (the cosine similarity, after subtracting the average value from each line) (the cosine similarity, after removing the waist
 price from each line). If the value becomes less than 0, or greater than 5, we round to 0 or 5 respectively.
