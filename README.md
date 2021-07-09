@@ -92,8 +92,7 @@ predictions of the algorithm, the RMSE of the algorithm is defined as:
 
 We created charts with the RMSE for different k values for all algorithms. For
 the UCF algorithm we use the values [1, 5, 10, 20, 50, 100, 200, 500, 1000]. For the ICF algorithm
-use the values [1, 5, 10, 20, 40, 50, 60, 70, 80, 100]. We used the values for the SVD algorithm
-[1, 5, 10, 20, 30, 40, 50, 75, 100]. We want the k with the lowest error.
+use the values [1, 5, 10, 20, 40, 50, 60, 70, 80, 100]. We used the values [1, 5, 10, 20, 30, 40, 50, 75, 100] for the SVD algorithm. We want the k with the lowest error.
 
 We also compared with the following simple "baselines":
 
