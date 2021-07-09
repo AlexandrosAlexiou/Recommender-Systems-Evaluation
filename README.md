@@ -30,7 +30,7 @@ calculate the set <img src="https://render.githubusercontent.com/render/math?mat
 We use the following formula for the prediction:
 
 <p align="center">
-<img src="https://github.com/AlexandrosAlexiou/Recommender-Systems-Evaluation/blob/main/formulae/ucf.png" alt="UCF" width="305"/>
+<img src="https://github.com/AlexandrosAlexiou/Recommender-Systems-Evaluation/blob/main/formulae/ucf.png" alt="UCF" width="300"/>
 </p>
 
 The s(𝑢, 𝑢′) is the similarity between the users 𝑢 and 𝑢′.
@@ -61,7 +61,7 @@ b from those rated by u.
 Then we use the following formula for your prediction:
 
 <p align="center">
-<img src="https://github.com/AlexandrosAlexiou/Recommender-Systems-Evaluation/blob/main/formulae/icf.png" alt="ICF" width="300"/>
+<img src="https://github.com/AlexandrosAlexiou/Recommender-Systems-Evaluation/blob/main/formulae/icf.png" alt="ICF" width="295"/>
 </p>
 
 In equation s(b, b') is the similarity between business b and b′. For the implementation we will use the cosine similarity.
@@ -87,7 +87,7 @@ Square Error) metric. If <img src="https://render.githubusercontent.com/render/m
 predictions of the algorithm, the RMSE of the algorithm is defined as:
 
 <p align="center">
-<img src="https://github.com/AlexandrosAlexiou/Recommender-Systems-Evaluation/blob/main/formulae/rmse.png" alt="RMSE" width="190"/>
+<img src="https://github.com/AlexandrosAlexiou/Recommender-Systems-Evaluation/blob/main/formulae/rmse.png" alt="RMSE" width="185"/>
 </p>
 
 We created charts with the RMSE for different k values for all algorithms. For
@@ -105,7 +105,7 @@ We created a table that contains all the algorithm results, and the best error f
 In this case, we will use the following equation for the prediction:
 
 <p align="center">
-<img src="https://github.com/AlexandrosAlexiou/Recommender-Systems-Evaluation/blob/main/formulae/ucf_pcc.png" alt="UCF PCC" width="410"/>
+<img src="https://github.com/AlexandrosAlexiou/Recommender-Systems-Evaluation/blob/main/formulae/ucf_pcc.png" alt="UCF PCC" width="405"/>
 </p>
 
 For the similarity we will use the correlation coefficient (the cosine similarity, after subtracting the average value from each line) (the cosine similarity, after removing the waist
